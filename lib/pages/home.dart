@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:universo/utils/constants.dart';
+import 'package:universo/pages/details.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:universo/models/data.dart';
 
@@ -84,7 +85,15 @@ class _HomeState extends State<Home> {
                   itemBuilder: (context, index) {
                     return InkWell(
                       onTap: () {
-                        // Navegação para tela de detalhes
+                        // Navega para os detalhes do planeta selecionado
+                        Navigator.push(
+                          context,
+                          PageRouteBuilder(
+                            pageBuilder: (context, a, b) => Detail(
+                              planetInfo: planets[index],
+                            ),
+                          ),
+                        );
                       },
                       child: Stack(
                         children: [
