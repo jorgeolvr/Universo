@@ -5,6 +5,7 @@ class PlanetInfo {
   final String description;
   final List<String> images;
 
+  // Construtor da classe
   PlanetInfo(
     this.position, {
     this.name,
@@ -14,6 +15,7 @@ class PlanetInfo {
   });
 }
 
+// Lista de planetas contendo nome, descrição e imagens
 List<PlanetInfo> planets = [
   PlanetInfo(1,
       name: 'Mercúrio',
