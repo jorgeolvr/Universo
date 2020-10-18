@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:universo/utils/constants.dart';
+import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:universo/models/data.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -33,12 +36,10 @@ class _HomeState extends State<Home> {
                   children: [
                     Text(
                       'Explorar',
-                      style: TextStyle(
-                        fontFamily: 'Avenir',
-                        fontSize: 44,
-                        color: titleTextColor,
-                        fontWeight: FontWeight.w900,
-                      ),
+                      style: GoogleFonts.lato(
+                          color: titleTextColor,
+                          fontSize: 44,
+                          fontWeight: FontWeight.w900),
                       textAlign: TextAlign.left,
                     ),
                     DropdownButton(
@@ -68,8 +69,116 @@ class _HomeState extends State<Home> {
                 ),
               ),
               Container(
-                  // Criar os cards com os planetas no formato swipe
+                height: 500,
+                child: Swiper(
+                  itemCount: planets.length,
+                  itemWidth: MediaQuery.of(context).size.width - 1 * 64,
+                  layout: SwiperLayout.STACK,
+                  pagination: SwiperPagination(
+                    builder: DotSwiperPaginationBuilder(
+                        activeSize: 20,
+                        space: 8,
+                        color: Colors.grey[400],
+                        activeColor: Colors.blue[300]),
                   ),
+                  itemBuilder: (context, index) {
+                    return InkWell(
+                      onTap: () {
+                        // Navegação para tela de detalhes
+                      },
+                      child: Stack(
+                        children: [
+                          Column(
+                            children: [
+                              SizedBox(
+                                height: 110,
+                              ),
+                              Card(
+                                elevation: 8,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(32),
+                                ),
+                                color: Colors.white,
+                                child: Padding(
+                                  padding: EdgeInsets.all(32),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      SizedBox(
+                                        height: 100,
+                                      ),
+                                      Text(
+                                        planets[index].name,
+                                        style: TextStyle(
+                                          fontFamily: 'Avenir',
+                                          fontSize: 44,
+                                          color: contentTextColor,
+                                          fontWeight: FontWeight.w900,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                      Text(
+                                        'Sistema Solar',
+                                        style: TextStyle(
+                                          fontFamily: 'Avenir',
+                                          fontSize: 23,
+                                          color: primaryTextColor,
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                        textAlign: TextAlign.left,
+                                      ),
+                                      SizedBox(
+                                        height: 32,
+                                      ),
+                                      Row(
+                                        children: [
+                                          Text(
+                                            'Saiba mais',
+                                            style: TextStyle(
+                                              fontFamily: 'Avenir',
+                                              fontSize: 18,
+                                              color: secondaryTextColor,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                            textAlign: TextAlign.left,
+                                          ),
+                                          Icon(
+                                            Icons.arrow_forward,
+                                            color: secondaryTextColor,
+                                          ),
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                          Hero(
+                            tag: planets[index].position,
+                            child: Image.asset(planets[index].iconImage),
+                          ),
+                          Positioned(
+                            right: 20,
+                            bottom: 60,
+                            child: Text(
+                              planets[index].position.toString(),
+                              style: TextStyle(
+                                fontFamily: 'Avenir',
+                                fontSize: 200,
+                                color: primaryTextColor.withOpacity(0.08),
+                                fontWeight: FontWeight.w900,
+                              ),
+                              textAlign: TextAlign.left,
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              ),
             ],
           ),
         ),
