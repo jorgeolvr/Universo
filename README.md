@@ -1,5 +1,5 @@
 <p>
-  <img src="https://github.com/jorgeolvr/universo/raw/master/assets/earth.png" width="20% height="20%">
+  <img src="https://github.com/jorgeolvr/universo/raw/master/assets/universe-logo.png" width="20% height="20%">
 </p> 
 
 Códigos desenvolvidos durante o **Hacktoberfest 2020** da [Digital Ocean](https://hacktoberfest.digitalocean.com/). O objetivo da aplicação é mostrar imagens e curiosidades de todos os planetas do sistema solar.
