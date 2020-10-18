@@ -1,16 +1,39 @@
-# universo
+<p>
+  <img src="https://github.com/jorgeolvr/universo/raw/master/assets/earth.png" width="20% height="20%">
+</p> 
 
-A new Flutter project.
+Códigos desenvolvidos durante o **Hacktoberfest 2020** da [Digital Ocean](https://hacktoberfest.digitalocean.com/). O objetivo da aplicação é mostrar imagens e curiosidades de todos os planetas do sistema solar.
 
-## Getting Started
+## Como testar na própria máquina?
 
-This project is a starting point for a Flutter application.
+Para baixar, basta clonar este repositório na sua máquina:
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+git clone https://github.com/jorgeolvr/universo.git
+```
+## Bibliotecas
+As seguintes bibliotecas foram utilizadas na implementação do projeto:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Mobile
+- [Flutter](https://www.flutter.dev) - Flutter SDK is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile.
+- [Google Fonts](https://pub.dev/packages/google_fonts) - This package for Flutter allows you to easily use any of the 977 fonts from Google Fonts.
+- [Swiper](https://pub.dev/packages/flutter_swiper) -  The best swiper for flutter, with multiple layouts, infinite loop. Compatible with Android & iOS.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Inicialização da aplicação
+O flutter possui um gerenciador de pacotes proprietário. Para isso é necessário instalar todas as dependências antes prosseguir:
+
+### Dentro da pasta do projeto
+Execute o seguinte comando para utilizar todas as dependências:
+```
+flutter pub get
+```
+
+### 
+Para usar em um simulador do **iOS** ou **android** execute:
+```
+flutter run
+```
+
+
