@@ -75,4 +75,10 @@ List<PlanetInfo> planets = [
       description:
           "The eighth planet from the sun, Neptune is about the size of Uranus and is known for supersonic strong winds. Neptune is far out and cold. The planet is more than 30 times as far from the sun as Earth. Neptune was the first planet predicted to exist by using math, before it was visually detected. Irregularities in the orbit of Uranus led French astronomer Alexis Bouvard to suggest some other planet might be exerting a gravitational tug. German astronomer Johann Galle used calculations to help find Neptune in a telescope. Neptune is about 17 times as massive as Earth and has a rocky core.",
       images: []),
+  PlanetInfo(9,
+      name: 'Planeta9',
+      iconImage: 'assets/neptune.png',
+      description:
+          "Estima-se que o Planeta Nove tenha cerca de 10 vezes a massa da Terra e orbite o Sol entre 300 e 1.000 vezes mais que nosso planeta",
+      images: []),
 ];
