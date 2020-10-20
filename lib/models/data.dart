@@ -81,4 +81,10 @@ List<PlanetInfo> planets = [
       description:
           "Estima-se que o Planeta Nove tenha cerca de 10 vezes a massa da Terra e orbite o Sol entre 300 e 1.000 vezes mais que nosso planeta",
       images: []),
+  PlanetInfo(10,
+      name: 'Planeta10',
+      iconImage: 'assets/neptune.png',
+      description:
+          "Cientistas do Laboratório Lunar e Planetário da Universidade do Arizona (LPL) determinaram que um objeto (ainda invisível) com uma massa igual ou parecida com a da Terra poderia estar à espreita no Cinturão de Kuiper, uma região além de Netuno repleta de asteroides, cometas e planetas anões",
+      images: []),
 ];
