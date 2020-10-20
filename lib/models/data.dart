@@ -93,4 +93,10 @@ List<PlanetInfo> planets = [
       description:
           "Ross 128b é um exoplaneta do tamanho da Terra, provavelmente rochoso, orbitando no interior da zona habitável da anã vermelha Ross 128, a uma distância de cerca de 11 anos-luz da Terra",
       images: []),
+  PlanetInfo(12,
+      name: 'Kepler-88 D',
+      iconImage: 'assets/neptune.png',
+      description:
+          "Localizado na constelação de Lira, a Harpa, a 1.200 anos-luz da Terra, Kepler-88 D leva quatro anos para completar uma volta ao redor da Kepler-88, a estrela que dá nome ao sistema do qual faz parte. A órbita dele é elíptica",
+      images: []),
 ];
