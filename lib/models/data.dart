@@ -87,4 +87,10 @@ List<PlanetInfo> planets = [
       description:
           "Cientistas do Laboratório Lunar e Planetário da Universidade do Arizona (LPL) determinaram que um objeto (ainda invisível) com uma massa igual ou parecida com a da Terra poderia estar à espreita no Cinturão de Kuiper, uma região além de Netuno repleta de asteroides, cometas e planetas anões",
       images: []),
+  PlanetInfo(11,
+      name: 'Ross 128b',
+      iconImage: 'assets/neptune.png',
+      description:
+          "Ross 128b é um exoplaneta do tamanho da Terra, provavelmente rochoso, orbitando no interior da zona habitável da anã vermelha Ross 128, a uma distância de cerca de 11 anos-luz da Terra",
+      images: []),
 ];
