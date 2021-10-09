@@ -49,7 +49,7 @@ List<PlanetInfo> planets = [
       name: 'Marte',
       iconImage: 'assets/mars.png',
       description:
-          "The fourth planet from the sun is Mars, and it's a cold, desert-like place covered in dust. This dust is made of iron oxides, giving the planet its iconic red hue. Mars shares similarities with Earth: It is rocky, has mountains, valleys and canyons, and storm systems ranging from localized tornado-like dust devils to planet-engulfing dust storms. ",
+          "O quarto planeta a partir do Sol é Marte, e é um lugar frio e desértico coberto de poeira. Essa poeira é feita de óxidos de ferro, dando ao planeta sua icônica tonalidade vermelha. Marte compartilha semelhanças com a Terra: é rochoso, tem montanhas, vales e desfiladeiros, e sistemas de tempestades que variam de redemoinhos de poeira semelhantes a tornados até tempestades de poeira que envolvem planetas.",
       images: []),
   PlanetInfo(5,
       name: 'Júpiter',
