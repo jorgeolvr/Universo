@@ -67,7 +67,7 @@ List<PlanetInfo> planets = [
       name: 'Urano',
       iconImage: 'assets/uranus.png',
       description:
-          "The seventh planet from the sun, Uranus is an oddball. It has clouds made of hydrogen sulfide, the same chemical that makes rotten eggs smell so foul. It rotates from east to west like Venus. But unlike Venus or any other planet, its equator is nearly at right angles to its orbit — it basically orbits on its side. Astronomers believe an object twice the size of Earth collided with Uranus roughly 4 billion years ago, causing Uranus to tilt. That tilt causes extreme seasons that last 20-plus years, and the sun beats down on one pole or the other for 84 Earth-years at a time. ",
+          "O sétimo planeta a partir do sol, Urano é um estranho. Tem nuvens feitas de sulfeto de hidrogênio, a mesma substância química que faz com que os ovos podres cheirem tão mal. Ele gira de leste a oeste como Vênus. Mas, ao contrário de Vênus ou de qualquer outro planeta, seu equador é quase perpendicular à sua órbita - basicamente orbita de lado. Os astrônomos acreditam que um objeto com o dobro do tamanho da Terra colidiu com Urano há cerca de 4 bilhões de anos, fazendo com que Urano se inclinasse. Essa inclinação causa estações extremas que duram mais de 20 anos, e o sol bate em um pólo ou no outro por 84 anos terrestres de cada vez.",
       images: []),
   PlanetInfo(8,
       name: 'Netuno',
