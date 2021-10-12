@@ -55,7 +55,7 @@ List<PlanetInfo> planets = [
       name: 'Júpiter',
       iconImage: 'assets/jupiter.png',
       description:
-          "The fifth planet from the sun, Jupiter is a giant gas world that is the most massive planet in our solar system — more than twice as massive as all the other planets combined, according to NASA. Its swirling clouds are colorful due to different types of trace gases. And a major feature in its swirling clouds is the Great Red Spot, a giant storm more than 10,000 miles wide. It has raged at more than 400 mph for the last 150 years, at least. Jupiter has a strong magnetic field, and with 75 moons, it looks a bit like a miniature solar system.",
+          "O quinto planeta a partir do Sol, Júpiter é um mundo gigante de gás que é o planeta mais massivo do nosso sistema solar - mais de duas vezes mais massivo que todos os outros planetas combinados, de acordo com a NASA. Suas nuvens rodopiantes são coloridas devido aos diferentes tipos de gases residuais. E uma característica importante em suas nuvens rodopiantes é a Grande Mancha Vermelha, uma tempestade gigante com mais de 16 mil quilômetros de largura. Ele atingiu uma velocidade de mais de 640 km / h nos últimos 150 anos, pelo menos. Júpiter tem um forte campo magnético e, com 75 luas, parece um pouco com um sistema solar em miniatura.",
       images: []),
   PlanetInfo(6,
       name: 'Saturno',
