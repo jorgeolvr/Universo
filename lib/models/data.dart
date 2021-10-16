@@ -85,7 +85,7 @@ List<PlanetInfo> planets = [
       name: 'Planeta10',
       iconImage: 'assets/neptune.png',
       description:
-          "Cientistas do Laboratório Lunar e Planetário da Universidade do Arizona (LPL) determinaram que um objeto (ainda invisível) com uma massa igual ou parecida com a da Terra poderia estar à espreita no Cinturão de Kuiper, uma região além de Netuno repleta de asteroides, cometas e planetas anões",
+          "Cientistas do Laboratório Lunar e Planetário da Universidade do Arizona determinaram que um objeto (ainda invisível) com uma massa igual ou parecida com a da Terra poderia estar à espreita no Cinturão de Kuiper, uma região além de Netuno repleta de asteroides, cometas e planetas anões",
       images: []),
   PlanetInfo(11,
       name: 'Ross 128b',
