@@ -56,7 +56,9 @@ List<PlanetInfo> planets = [
       iconImage: 'assets/jupiter.png',
       description:
           "O quinto planeta a partir do Sol, Júpiter é um mundo gigante de gás que é o planeta mais massivo do nosso sistema solar - mais de duas vezes mais massivo que todos os outros planetas combinados, de acordo com a NASA. Suas nuvens rodopiantes são coloridas devido aos diferentes tipos de gases residuais. E uma característica importante em suas nuvens rodopiantes é a Grande Mancha Vermelha, uma tempestade gigante com mais de 16 mil quilômetros de largura. Ele atingiu uma velocidade de mais de 640 km / h nos últimos 150 anos, pelo menos. Júpiter tem um forte campo magnético e, com 75 luas, parece um pouco com um sistema solar em miniatura.",
-      images: []),
+      images: [
+      'https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015_1280.jpg'
+      ]),
   PlanetInfo(6,
       name: 'Saturno',
       iconImage: 'assets/saturn.png',
