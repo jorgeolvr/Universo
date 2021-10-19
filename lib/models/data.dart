@@ -50,7 +50,9 @@ List<PlanetInfo> planets = [
       iconImage: 'assets/mars.png',
       description:
           "O quarto planeta a partir do Sol é Marte, e é um lugar frio e desértico coberto de poeira. Essa poeira é feita de óxidos de ferro, dando ao planeta sua icônica tonalidade vermelha. Marte compartilha semelhanças com a Terra: é rochoso, tem montanhas, vales e desfiladeiros, e sistemas de tempestades que variam de redemoinhos de poeira semelhantes a tornados até tempestades de poeira que envolvem planetas.",
-      images: []),
+      images: [
+      'https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015_1280.jpg'
+      ]),
   PlanetInfo(5,
       name: 'Júpiter',
       iconImage: 'assets/jupiter.png',
