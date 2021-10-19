@@ -64,7 +64,9 @@ List<PlanetInfo> planets = [
       iconImage: 'assets/saturn.png',
       description:
           "O sexto planeta a partir do Sol, Saturno é mais conhecido por seus anéis. Quando o polímata Galileo Galilei estudou Saturno pela primeira vez no início de 1600, ele pensou que era um objeto com três partes: um planeta e duas grandes luas de cada lado. Sem saber que estava vendo um planeta com anéis, o astrônomo perplexo inseriu um pequeno desenho - um símbolo com um círculo grande e dois menores - em seu caderno, como um substantivo em uma frase que descreve sua descoberta. Mais de 40 anos depois, Christiaan Huygens propôs que eles eram anéis. Os anéis são feitos de gelo e rocha e os cientistas ainda não têm certeza de como eles se formaram. O planeta gasoso é principalmente hidrogênio e hélio e tem várias luas.",
-      images: []),
+      images: [
+        'https://cdn.pixabay.com/photo/2011/12/13/14/31/earth-11015_1280.jpg'
+              ]),
   PlanetInfo(7,
       name: 'Urano',
       iconImage: 'assets/uranus.png',
